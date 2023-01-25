@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-18T13:12:21 IST" name="Default suite" finished-at="2023-01-18T13:12:22 IST" duration-ms="69">
+  <suite name="Suite" duration-ms="126" started-at="2023-01-23T17:27:48 IST" finished-at="2023-01-23T17:27:48 IST">
     <groups>
+      <group name="regression">
+        <method signature="CustomerModule.delete()[pri:0, instance:createTest.CustomerModule@7ce6a65d]" name="delete" class="createTest.CustomerModule"/>
+        <method signature="Demo1.modify12()[pri:0, instance:createTest.Demo1@26a7b76d]" name="modify12" class="createTest.Demo1"/>
+        <method signature="ModularCustomer.editcustomer()[pri:0, instance:createTest.ModularCustomer@32d2fa64]" name="editcustomer" class="createTest.ModularCustomer"/>
+      </group> <!-- regression -->
     </groups>
-    <test started-at="2023-01-18T13:12:21 IST" name="Default test" finished-at="2023-01-18T13:12:22 IST" duration-ms="69">
-      <class name="createTest.Parameter_Test">
-        <test-method signature="runparameter()[pri:0, instance:createTest.Parameter_Test@33990a0c]" started-at="2023-01-18T13:12:22 IST" name="runparameter" finished-at="2023-01-18T13:12:22 IST" duration-ms="9" status="PASS">
+    <test name="Test" duration-ms="126" started-at="2023-01-23T17:27:48 IST" finished-at="2023-01-23T17:27:48 IST">
+      <class name="createTest.Demo1">
+        <test-method status="PASS" signature="modify12()[pri:0, instance:createTest.Demo1@26a7b76d]" name="modify12" duration-ms="3" started-at="2023-01-23T17:27:48 IST" finished-at="2023-01-23T17:27:48 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runparameter -->
-      </class> <!-- createTest.Parameter_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- modify12 -->
+      </class> <!-- createTest.Demo1 -->
+      <class name="createTest.ModularCustomer">
+        <test-method status="PASS" signature="editcustomer()[pri:0, instance:createTest.ModularCustomer@32d2fa64]" name="editcustomer" duration-ms="17" started-at="2023-01-23T17:27:48 IST" finished-at="2023-01-23T17:27:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editcustomer -->
+      </class> <!-- createTest.ModularCustomer -->
+      <class name="createTest.CustomerModule">
+        <test-method status="PASS" signature="delete()[pri:0, instance:createTest.CustomerModule@7ce6a65d]" name="delete" duration-ms="3" started-at="2023-01-23T17:27:48 IST" finished-at="2023-01-23T17:27:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- createTest.CustomerModule -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
